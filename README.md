@@ -11,3 +11,17 @@ Click installer and click download. Then double-click it. (Same as install.sh ju
 # Still easy install
 Clone this repo, then cd into it, chmod and run the installer.
 
+# How Do I disable it?
+Run this to temporarily stop it:
+```
+$ systemctl stop --user drp.service
+```
+Run this to permanently stop it:
+```
+$ systemctl disable --user --now drp.service
+```
+# Uninstall
+```
+$ rm -rf ~/.local/share/uname-drp ~/.config/systemd/user/drp.service
+$ systemctl disable --user --now drp.service
+```
