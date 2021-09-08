@@ -7,8 +7,8 @@ After=network.target
 [Service]
 Type=simple
 
-WorkingDirectory=${HOME}/drp/
-ExecStart=${HOME}/drp/drpman
+WorkingDirectory=${HOME}/.local/share/uname-drp/
+ExecStart=${HOME}/.local/share/uname-drp/drpman
 Restart=on-failure
 # Other restart options: always, on-abort, etc
 
