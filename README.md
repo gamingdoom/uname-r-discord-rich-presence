@@ -10,7 +10,7 @@ Click installer and click download. Then double-click it. (Same as install.sh ju
 
 # Still easy install
 ```
-$ git clone https://github.com/gamingdoom/uname-r-discord-rich-presence.git && cd uname-r-discord-rich-presence && bash installer.sh
+$ git clone https://github.com/gamingdoom/uname-r-discord-rich-presence.git && cd uname-r-discord-rich-presence & bash installer.sh
 ```
 
 # How Do I disable it?
