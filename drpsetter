@@ -15,4 +15,4 @@ LargeImage=bash
 LargeImageTooltip=
 SmallImage=
 SmallImageTooltip= 
-" > ~/drp/config.ini
+" > config.ini
