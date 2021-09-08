@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "
+[Unit]
+Description=Discord Rich Presence uname r service
+After=network.target
+
+[Service]
+Type=simple
+
+WorkingDirectory=${HOME}/drp/
+ExecStart=${HOME}/drp/drpman
+Restart=on-failure
+# Other restart options: always, on-abort, etc
+
+[Install]
+WantedBy=default.target
+" > ${HOME}/.config/systemd/user/drp.service
+systemctl enable --user drp.service
+systemctl start --user drp.service

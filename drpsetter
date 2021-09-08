@@ -1,0 +1,18 @@
+#!/bin/bash
+uname=`uname -r`
+echo "
+[Identifiers]
+ClientID=884971252547199036
+
+[State]
+State=${uname}
+Details=ㅤㅤ
+StartTimestamp=
+EndTimestamp=
+
+[Images]
+LargeImage=bash
+LargeImageTooltip=
+SmallImage=
+SmallImageTooltip= 
+" > ~/drp/config.ini
