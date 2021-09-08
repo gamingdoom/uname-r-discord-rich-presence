@@ -9,7 +9,9 @@ This is a program that sets your discord rich presence as your kernel version us
 Click installer and click download. Then double-click it. (Same as install.sh just double-clickable) If it isnt double-clickable then go to properties and allow execution
 
 # Still easy install
-Clone this repo, then cd into it, chmod and run the installer.
+```
+$ git clone https://github.com/gamingdoom/uname-r-discord-rich-presence.git & cd uname-r-discord-rich-presence & bash installer.sh
+```
 
 # How Do I disable it?
 Run this to temporarily stop it:
