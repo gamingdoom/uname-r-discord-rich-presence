@@ -8,8 +8,7 @@ After=network.target
 Type=simple
 
 WorkingDirectory=${HOME}/.local/share/uname-drp/
-ExecStart=${HOME}/.local/share/uname-drp/drpman
-Restart=on-failure
+ExecStart=bash ${HOME}/.local/share/uname-drp/drpman
 # Other restart options: always, on-abort, etc
 
 [Install]

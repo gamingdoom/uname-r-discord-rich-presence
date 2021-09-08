@@ -17,11 +17,12 @@ ninja -C build
 cd .. 
 cp -v EasyRP/build/easyrp easyrp
 # Clean Up
-rm -v EasyRP
+rm -Rf EasyRP
 # Copy Everything needed to main dir
 mkdir ${HOME}/.local/share/uname-drp
 rm -Rf .git/ .gitignore
 cp * ${HOME}/.local/share/uname-drp/
+chmod +x ${HOME}/.local/share/uname-drp/*
 cd .. 
 # Start Setup
 bash ${HOME}/.local/share/uname-drp/drpsetup
