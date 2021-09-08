@@ -22,6 +22,5 @@ $ systemctl disable --user --now drp.service
 ```
 # Uninstall
 ```
-$ rm -rf ~/.local/share/uname-drp ~/.config/systemd/user/drp.service
-$ systemctl disable --user --now drp.service
+$ rm -rf ~/.local/share/uname-drp ~/.config/systemd/user/drp.service & systemctl disable --user --now drp.service
 ```
