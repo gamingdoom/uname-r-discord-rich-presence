@@ -5,6 +5,9 @@ Uname -r discord rich presence
 This is a program that sets your discord rich presence as your kernel version using [EasyRP](https://github.com/Pizzabelly/EasyRP) and systemd
 
 # Install
+
+Depends on ``clang`` and ``cmake``
+
 ```
 $ git clone https://github.com/gamingdoom/uname-r-discord-rich-presence.git && cd uname-r-discord-rich-presence && bash installer.sh
 ```
